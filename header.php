@@ -10,20 +10,20 @@
   <body>
 
     <nav class="navbar navbar-expand-xs navbar-light bg-light">
-    <a class="navbar-brand" href="#">Gods of Planet Nine</a>
+    <a class="navbar-brand" href="#"><h1>Gods of Planet Nine</h1></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Home</a>
+          <a class="nav-link" href="#"><h3>Home</h3></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Rules</a>
+          <a class="nav-link" href="#"><h3>Rules</h3></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Current Score</a>
+          <a class="nav-link" href="#"><h3>Current Score</h3></a>
         </li>
 
       </ul>
