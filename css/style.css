@@ -1,1 +1,20 @@
+@media screen and (min-width: 767px) {
+    .PhoneContent {
+        display:none;
+    }
+}
 
+@media screen and (max-width: 766px) {
+    .PhoneContentLarge {
+        display:none;
+    }
+}
+
+.PhoneContent{
+  
+}
+
+
+.PhoneContentLarge{
+
+}
