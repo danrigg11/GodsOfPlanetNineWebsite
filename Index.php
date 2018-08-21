@@ -18,8 +18,8 @@
           <div class="card-body">
             <h1 class="card-title pricing-card-title">Season 1.2</h1>
             <!-- Display the countdown timer in an element -->
-            <h2 id="demo" class="text-center mb-3"></h2>
-            <button type="button" class="btn btn-lg btn-block btn-dark">See Whats Next</button>
+            <h2 id="demo" class="text-center mb-3 text-danger"></h2>
+            <a href="nextseason.php" class="btn btn-lg btn-block btn-dark" tabindex="-1" role="button" aria-disabled="true">See Whats Next</a>
           </div>
         </div>
         <div class="card mb-4 shadow-sm">
@@ -29,18 +29,40 @@
           <div class="card-body">
             <h1 class="card-title pricing-card-title text-primary">TigerBoy32</h1>
             <h2 class="card-title pricing-card-title mb-3">32:45 <small class="text-muted">Seconds</small></h2>
-            <button type="button" class="btn btn-lg btn-block btn-outline-dark">Sign up for free</button>
+            <a href="Applications.php" class="btn btn-block btn-outline-dark btn-lg" tabindex="-1" role="button" aria-disabled="true">Sign up for free</a>
           </div>
         </div>
       </div>
 
+      <div class="card-deck mb-3 pl-3 pr-3 text-center">
+              <div class="card mb-4 shadow-sm">
+                <div class="card-header">
+                  <h4 class="my-0 font-weight-normal">Latest Season</h4>
+                </div>
+                <div class="card-body">
+                  <h1 class="card-title pricing-card-title">Mac <small class="text-muted">1.1</small></h1>
+                  <a href="#" class="btn btn-block btn-outline-success btn-lg" tabindex="-1" role="button" aria-disabled="true">Download</a>
+                </div>
+              </div>
+
+              <div class="card mb-4 shadow-sm">
+                <div class="card-header">
+                  <h4 class="my-0 font-weight-normal">Latest Season</h4>
+                </div>
+                <div class="card-body">
+                  <h1 class="card-title pricing-card-title">PC <small class="text-muted">1.1</small></h1>
+                  <a href="#" class="btn btn-block btn-outline-success btn-lg" tabindex="-1" role="button" aria-disabled="true">Download</a>
+                </div>
+              </div>
+            </div>
 
 
 
 
 
 
-<div class="row HomeScreenBar mb-5">
+
+<div class="row HomeScreenBar mb-5 shadow">
   <div class="col-4 bg-dark">
   </div>
   <div class="col-4">

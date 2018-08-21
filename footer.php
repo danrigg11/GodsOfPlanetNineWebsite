@@ -4,10 +4,9 @@
             <h5>Features</h5>
             <ul class="list-unstyled text-small">
               <li><a class="text-muted" href="rules.php">Rulebook</a></li>
-              <li><a class="text-muted" href="index.php">Past seasons</a></li>
-              <li><a class="text-muted" href="#">Next seasons changes?</a></li>
+              <li><a class="text-muted" href="index.php">Past season's</a></li>
+              <li><a class="text-muted" href="nextseason.php">Next season's changes?</a></li>
               <li><a class="text-muted" href="Applications.php">Submit your attempt</a></li>
-              <li><a class="text-muted" href="#">Sign in/ Sing up</a></li>
             </ul>
           </div>
           <div class="col-6 col-md">

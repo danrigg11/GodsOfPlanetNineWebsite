@@ -9,7 +9,7 @@
   </head>
   <body>
 
-    <nav class="navbar navbar-expand-xs navbar-light bg-light">
+    <nav class="navbar navbar-expand-xs navbar-light bg-light mb-4 shadow-sm">
     <a class="navbar-brand" href="index.php"><h1>Gods of Planet Nine</h1></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -23,7 +23,7 @@
           <a class="nav-link" href="rules.php"><h3>Rules</h3></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#"><h3>Current Score</h3></a>
+          <a class="nav-link" href="nextseason.php"><h3>Current Score</h3></a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="Applications.php"><h3>Submit a score</h3></a>
