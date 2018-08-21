@@ -78,33 +78,33 @@
 
     <div class="card mb-4 shadow-sm">
       <div class="card-header">
-        <h4 class="my-0 font-weight-normal">Title</h4>
+        <h4 class="my-0 font-weight-normal">Season 1.3</h4>
       </div>
       <div class="card-body">
         <img class="card-img-top" src="Images/Screen Shot 2018-08-19 at 21.47.57.png" alt="Version Image">
-        <p class="card-text">Version description.</p>
+        <p class="card-text">Winners implement.</p>
         <button type="button" class="btn btn-lg btn-block btn-outline-dark">Go to version</button>
       </div>
     </div>
 
   <div class="card mb-4 shadow-sm">
     <div class="card-header">
-      <h4 class="my-0 font-weight-normal">Title</h4>
+      <h4 class="my-0 font-weight-normal">Season 1.2</h4>
     </div>
     <div class="card-body">
       <img class="card-img-top" src="Images/Screen Shot 2018-08-19 at 21.47.57.png" alt="Version Image">
-      <p class="card-text">Version description.</p>
+      <p class="card-text">Winners implement.</p>
       <button type="button" class="btn btn-lg btn-block btn-outline-dark">Go to version</button>
     </div>
   </div>
 
 <div class="card mb-4 shadow-sm">
   <div class="card-header">
-    <h4 class="my-0 font-weight-normal">Title</h4>
+    <h4 class="my-0 font-weight-normal">Season 1.1</h4>
   </div>
   <div class="card-body">
     <img class="card-img-top" src="Images/Screen Shot 2018-08-19 at 21.47.57.png" alt="Version Image">
-    <p class="card-text">Version description.</p>
+    <p class="card-text">Default Season.</p>
     <button type="button" class="btn btn-lg btn-block btn-outline-dark">Go to version</button>
   </div>
 </div>
