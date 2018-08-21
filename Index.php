@@ -66,7 +66,7 @@
   <div class="col-4 bg-dark">
   </div>
   <div class="col-4">
-    <h3 class="text-center font-weight-bold">Previous Levels</h3>
+    <h3 class="text-center font-weight-bold">Previous Seasons</h3>
   </div>
   <div class="col-4 bg-dark">
   </div>
