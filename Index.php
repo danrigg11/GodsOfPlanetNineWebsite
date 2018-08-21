@@ -8,7 +8,7 @@
           <div class="card-body">
             <h1 class="card-title pricing-card-title">Rulebook</h1>
             <h2 class="card-title pricing-card-title mb-3">Copy <small class="text-muted"> 1.1</small></h2>
-            <button type="button" class="btn btn-lg btn-block btn-outline-dark">Before You Start</button>
+            <a href="rules.php" class="btn btn-block btn-outline-dark btn-lg" tabindex="-1" role="button" aria-disabled="true">Before You Start</a>
           </div>
         </div>
         <div class="card mb-4 shadow-sm">
@@ -27,7 +27,7 @@
             <h4 class="my-0 font-weight-normal">Current Score</h4>
           </div>
           <div class="card-body">
-            <h1 class="card-title pricing-card-title">TigerBoy32</h1>
+            <h1 class="card-title pricing-card-title text-primary">TigerBoy32</h1>
             <h2 class="card-title pricing-card-title mb-3">32:45 <small class="text-muted">Seconds</small></h2>
             <button type="button" class="btn btn-lg btn-block btn-outline-dark">Sign up for free</button>
           </div>
@@ -52,46 +52,42 @@
 
 
 
-  <div class="row pl-4 pr-4">
+  <div class="card-deck pl-4 pr-4">
 
-    <div class="col-4 mb-3 mt-3">
-      <div class="card">
-        <div class="card-header">
-          <h5 class="card-title">Title</h5>
-        </div>
-        <div class="card-body">
-          <img class="card-img-top" src="Images/Screen Shot 2018-08-19 at 21.47.57.png" alt="Version Image">
-          <p class="card-text">Version description.</p>
-          <a href="#" class="btn btn-outline-dark">Go to version</a>
-        </div>
+    <div class="card mb-4 shadow-sm">
+      <div class="card-header">
+        <h4 class="my-0 font-weight-normal">Title</h4>
+      </div>
+      <div class="card-body">
+        <img class="card-img-top" src="Images/Screen Shot 2018-08-19 at 21.47.57.png" alt="Version Image">
+        <p class="card-text">Version description.</p>
+        <button type="button" class="btn btn-lg btn-block btn-outline-dark">Go to version</button>
       </div>
     </div>
 
-    <div class="col-4 mb-3 mt-3">
-      <div class="card">
-        <div class="card-header">
-          <h5 class="card-title">Title</h5>
-        </div>
-        <div class="card-body">
-          <img class="card-img-top" src="Images/Screen Shot 2018-08-19 at 21.47.57.png" alt="Version Image">
-          <p class="card-text">Version description.</p>
-          <a href="#" class="btn btn-outline-dark">Go to version</a>
-        </div>
-      </div>
+  <div class="card mb-4 shadow-sm">
+    <div class="card-header">
+      <h4 class="my-0 font-weight-normal">Title</h4>
     </div>
+    <div class="card-body">
+      <img class="card-img-top" src="Images/Screen Shot 2018-08-19 at 21.47.57.png" alt="Version Image">
+      <p class="card-text">Version description.</p>
+      <button type="button" class="btn btn-lg btn-block btn-outline-dark">Go to version</button>
+    </div>
+  </div>
 
-    <div class="col-4 mb-3 mt-3">
-      <div class="card">
-        <div class="card-header">
-          <h5 class="card-title">Title</h5>
-        </div>
-        <div class="card-body">
-          <img class="card-img-top" src="Images/Screen Shot 2018-08-19 at 21.47.57.png" alt="Version Image">
-          <p class="card-text">Version description.</p>
-          <a href="#" class="btn btn-outline-dark">Go to version</a>
-        </div>
-      </div>
-    </div>
+<div class="card mb-4 shadow-sm">
+  <div class="card-header">
+    <h4 class="my-0 font-weight-normal">Title</h4>
+  </div>
+  <div class="card-body">
+    <img class="card-img-top" src="Images/Screen Shot 2018-08-19 at 21.47.57.png" alt="Version Image">
+    <p class="card-text">Version description.</p>
+    <button type="button" class="btn btn-lg btn-block btn-outline-dark">Go to version</button>
+  </div>
+</div>
+
+
 
   </div>
 

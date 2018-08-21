@@ -1,4 +1,31 @@
-
+<footer class="pt-4 my-md-5 pt-md-5 border-top">
+        <div class="row ml-2">
+          <div class="col-6 col-md">
+            <h5>Features</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="text-muted" href="rules.php">Rulebook</a></li>
+              <li><a class="text-muted" href="index.php">Past seasons</a></li>
+              <li><a class="text-muted" href="#">Next seasons changes?</a></li>
+              <li><a class="text-muted" href="Applications.php">Submit your attempt</a></li>
+              <li><a class="text-muted" href="#">Sign in/ Sing up</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>Resources</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="text-primary" href="https://www.facebook.com/GodsOfPlanetNine/">Facebook</a></li>
+              <li><a class="text-danger" href="#">Youtube</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>About</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="text-muted" href="#">Team</a></li>
+              <li><a class="text-muted" href="#">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
 
 
 

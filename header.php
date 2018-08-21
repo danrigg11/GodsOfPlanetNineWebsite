@@ -25,6 +25,9 @@
         <li class="nav-item">
           <a class="nav-link" href="#"><h3>Current Score</h3></a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Applications.php"><h3>Submit a score</h3></a>
+        </li>
 
       </ul>
     </div>
