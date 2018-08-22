@@ -2,18 +2,6 @@
 
 <?php include_once 'includes/dbh.php' ?>
 
-<?php
-$sql = "SELECT * FROM high_scores;";
-$result = mysqli_query($conn, $sql);
-$resultCheck = mysqli_num_rows($result);
-
-if ($resultCheck > 0){
-  while ($row = mysqli_fetch_assoc($result)) {
-    echo $row['score'];
-  }
-}
-?>
-
 <div class="card-deck mb-3 pl-3 pr-3 text-center">
   <div class="card mb-4 shadow-sm">
     <div class="card-header">
@@ -41,9 +29,41 @@ if ($resultCheck > 0){
       <h4 class="my-0 font-weight-normal">Current Score</h4>
     </div>
     <div class="card-body">
-      <h1 class="card-title pricing-card-title text-primary"><?php echo ['uid'] ?></h1>
-      <h2 class="card-title pricing-card-title mb-3">32:45 <small class="text-muted">Seconds</small></h2>
-      <a href="Applications.php" class="btn btn-block btn-outline-dark btn-lg" tabindex="-1" role="button" aria-disabled="true">Sign up for free</a>
+      <h1 class="card-title pricing-card-title text-primary">
+        <?php
+        $data = "1";
+        $sql = "SELECT * FROM high_score where id=?;";
+        $stmt = mysqli_stmt_init($conn);
+        if (!mysqli_stmt_prepare($stmt, $sql)){
+          echo "SQL statment failed";
+        } else {
+          mysqli_stmt_bind_param($stmt, "s", $data);
+          mysqli_stmt_execute($stmt);
+          $result = mysqli_stmt_get_result($stmt);
+
+          while ($row = mysqli_fetch_assoc($result)) {
+            echo $row['uid'];
+          }
+        }?>
+      </h1>
+      <h2 class="card-title pricing-card-title mb-3">
+        <?php
+        $data = "1";
+        $sql = "SELECT * FROM high_score where id=?;";
+        $stmt = mysqli_stmt_init($conn);
+        if (!mysqli_stmt_prepare($stmt, $sql)){
+          echo "SQL statment failed";
+        } else {
+          mysqli_stmt_bind_param($stmt, "s", $data);
+          mysqli_stmt_execute($stmt);
+          $result = mysqli_stmt_get_result($stmt);
+
+          while ($row = mysqli_fetch_assoc($result)) {
+            echo $row['score'];
+          }
+        }?>
+        <small class="text-muted">Seconds</small></h2>
+      <a href="Applications.php" class="btn btn-block btn-outline-dark btn-lg" tabindex="-1" role="button" aria-disabled="true">Submit your score</a>
     </div>
   </div>
 </div>

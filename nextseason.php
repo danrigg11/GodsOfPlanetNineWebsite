@@ -1,5 +1,7 @@
 <?php include 'header.php' ?>
 
+<?php include_once 'includes/dbh.php' ?>
+
 <div class="text-center">
 
     <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
@@ -23,18 +25,114 @@
   <tbody>
     <tr>
       <th scope="row">1</th>
-      <td class="text-primary">TigerBoy32</td>
-      <td class="text-primary">31.25</td>
+      <td class="text-primary">
+        <?php
+        $data = "1";
+        $sql = "SELECT * FROM high_score where id=?;";
+        $stmt = mysqli_stmt_init($conn);
+        if (!mysqli_stmt_prepare($stmt, $sql)){
+          echo "SQL statment failed";
+        } else {
+          mysqli_stmt_bind_param($stmt, "s", $data);
+          mysqli_stmt_execute($stmt);
+          $result = mysqli_stmt_get_result($stmt);
+
+          while ($row = mysqli_fetch_assoc($result)) {
+            echo $row['uid'];
+          }
+        }?>
+      </td>
+      <td class="text-primary">
+        <?php
+      $data = "1";
+      $sql = "SELECT * FROM high_score where id=?;";
+      $stmt = mysqli_stmt_init($conn);
+      if (!mysqli_stmt_prepare($stmt, $sql)){
+        echo "SQL statment failed";
+      } else {
+        mysqli_stmt_bind_param($stmt, "s", $data);
+        mysqli_stmt_execute($stmt);
+        $result = mysqli_stmt_get_result($stmt);
+
+        while ($row = mysqli_fetch_assoc($result)) {
+          echo $row['score'];
+        }
+      }?>
+    </td>
     </tr>
     <tr>
       <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>34.01</td>
+      <td>
+        <?php
+        $data = "2";
+        $sql = "SELECT * FROM high_score where id=?;";
+        $stmt = mysqli_stmt_init($conn);
+        if (!mysqli_stmt_prepare($stmt, $sql)){
+          echo "SQL statment failed";
+        } else {
+          mysqli_stmt_bind_param($stmt, "s", $data);
+          mysqli_stmt_execute($stmt);
+          $result = mysqli_stmt_get_result($stmt);
+
+          while ($row = mysqli_fetch_assoc($result)) {
+            echo $row['uid'];
+          }
+        }?>
+      </td>
+      <td>
+        <?php
+        $data = "2";
+        $sql = "SELECT * FROM high_score where id=?;";
+        $stmt = mysqli_stmt_init($conn);
+        if (!mysqli_stmt_prepare($stmt, $sql)){
+          echo "SQL statment failed";
+        } else {
+          mysqli_stmt_bind_param($stmt, "s", $data);
+          mysqli_stmt_execute($stmt);
+          $result = mysqli_stmt_get_result($stmt);
+
+          while ($row = mysqli_fetch_assoc($result)) {
+            echo $row['score'];
+          }
+        }?>
+      </td>
     </tr>
     <tr>
       <th scope="row">3</th>
-      <td >Larry the Bird</td>
-      <td >40.55</td>
+      <td >
+        <?php
+        $data = "3";
+        $sql = "SELECT * FROM high_score where id=?;";
+        $stmt = mysqli_stmt_init($conn);
+        if (!mysqli_stmt_prepare($stmt, $sql)){
+          echo "SQL statment failed";
+        } else {
+          mysqli_stmt_bind_param($stmt, "s", $data);
+          mysqli_stmt_execute($stmt);
+          $result = mysqli_stmt_get_result($stmt);
+
+          while ($row = mysqli_fetch_assoc($result)) {
+            echo $row['uid'];
+          }
+        }?>
+      </td>
+      <td >
+        <?php
+        $data = "3";
+        $sql = "SELECT * FROM high_score where id=?;";
+        $stmt = mysqli_stmt_init($conn);
+        if (!mysqli_stmt_prepare($stmt, $sql)){
+          echo "SQL statment failed";
+        } else {
+          mysqli_stmt_bind_param($stmt, "s", $data);
+          mysqli_stmt_execute($stmt);
+          $result = mysqli_stmt_get_result($stmt);
+
+          while ($row = mysqli_fetch_assoc($result)) {
+            echo $row['score'];
+          }
+        }?>
+      </td>
     </tr>
   </tbody>
 </table>

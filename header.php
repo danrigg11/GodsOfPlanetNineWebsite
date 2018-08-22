@@ -1,3 +1,6 @@
+<?php
+  session_start();
+?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -11,9 +14,13 @@
 
     <nav class="navbar navbar-expand-xs navbar-light bg-light mb-4 shadow-sm">
     <a class="navbar-brand" href="index.php"><h1>Gods of Planet Nine</h1></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+    <div class="pull-right">
+      <a href="login.php" class="btn btn-sm btn-dark" role="button">Log in</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav">
         <li class="nav-item">
@@ -27,6 +34,9 @@
         </li>
         <li class="nav-item">
           <a class="nav-link" href="Applications.php"><h3>Submit a score</h3></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-success" href="adminpage.php"><h3>Admin page</h3></a>
         </li>
 
       </ul>
